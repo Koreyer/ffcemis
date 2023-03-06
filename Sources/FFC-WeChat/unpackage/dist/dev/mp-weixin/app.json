@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/shoppingCart/shoppingCart",
+    "pages/chat/chat",
+    "pages/person/person"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#f4f5f7",
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "count": 2,
+        "isDot": true,
+        "customIcon": false
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "消息",
+        "customIcon": false
+      },
+      {
+        "pagePath": "pages/shoppingCart/shoppingCart",
+        "text": "购物车",
+        "customIcon": false
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "我的",
+        "customIcon": false
+      }
+    ],
+    "current": 0
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FFC01.Foundation\FFC01.Foundation.csproj" />
+    <ProjectReference Include="..\FFC03.EntityModels.ORM\FFC03.EntityModels.ORM.csproj" />
+    <ProjectReference Include="..\FFC04.DataRepository\FFC04.DataRepository.csproj" />
+    <ProjectReference Include="..\FFC05.ModelsDTO\FFC05.ModelsDTO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+
+.position-sticky {
+    position: -webkit-sticky!important;
+    position: sticky!important;
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: calc( 0px + 3px);
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 6;
+}
+

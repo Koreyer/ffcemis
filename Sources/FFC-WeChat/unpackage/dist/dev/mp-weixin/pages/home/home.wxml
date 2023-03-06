@@ -1,0 +1,1 @@
+<view class="page"><view class="body" style="{{'height:'+(this.$store.screenHeight)+';'}}"></view><c-tabbar vue-id="1da55560-1" bind:__l="__l"></c-tabbar></view>

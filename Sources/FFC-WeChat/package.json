@@ -1,0 +1,21 @@
+{
+  "name": "FFC-WeChat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@latelier/vue-signalr": "^2.0.4",
+    "signalr": "^2.4.3",
+    "signalr-uni": "^5.1.1",
+    "uview-ui": "^2.0.31"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
